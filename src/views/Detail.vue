@@ -44,7 +44,7 @@ export default {
   methods: {
     send() {
       axios
-        .post("herokuのURL/api/comment", {
+        .post("morning-hollows-88054.herokuapp.com/api/comment", {
           share_id: this.id,
           user_id: this.$store.state.user.id,
           content: this.content,
